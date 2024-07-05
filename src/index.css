@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "vazir";
+  src: url(./assets/fontes/vazir/Vazirmatn-Regular.ttf);
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url(./assets/fontes/yekan/BYekan+.ttf);
+}
+
+@font-face {
+  font-family: "casabella";
+  src: url(./assets/fontes/casabela/Far_Casablanca.ttf);
+}
