@@ -1,10 +1,12 @@
-import { Button } from "./components/Button";
+import { Button } from "./components/ui/Button";
 
 function App() {
   return (
     <>
       <h1 className="font-casabella"> 12345سلام</h1>
-      <Button color="warning" size="3xl" rounded="3xl">
+      <Button
+        outlet="primary"
+        className="ml-4 font-vazir  border-2 duration-100">
         ارسال
       </Button>
     </>
